@@ -11,3 +11,4 @@ console.log(typeof(logica));
 
 var qualquer;
 console.log(typeof(qualquer));
+// desenvolvolvido por Leandro Vaguetti
