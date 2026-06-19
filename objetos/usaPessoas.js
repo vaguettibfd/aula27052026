@@ -1,4 +1,5 @@
 const Pessoa = require('./pessoas/Pessoa');
+const PF = require('./pessoas/PF');
 
 const x = new Pessoa();
 
@@ -29,4 +30,29 @@ if (resposta) {
   console.log(x.getIdade());
 } else {
   console.log("Idade vazia");
+}
+
+const y = new PF();
+
+resposta = y.setNome('Pedro');
+console.log(resposta);
+
+if (resposta) {
+  console.log(y.getNome());
+}
+
+resposta = y.setEmail('');
+console.log(resposta);
+
+if (resposta) {
+  console.log(y.getEmail());
+} else {
+  console.log("Email vazio");
+}
+
+resposta = y.setCPF('123456789-10');
+console.log(resposta);
+
+if (resposta) {
+  console.log(y.getCPF());
 }
