@@ -11,6 +11,7 @@ ieC.setDataRegistro(agora);
 console.log(`(Classe) Número: ${ieC.getNumero()}`);
 console.log(`(Classe) Estado: ${ieC.getEstado()}`);
 console.log(`(Classe) Data: ${ieC.getDataRegistro().toLocaleString('pt-BR')}`);
+console.log(`(Classe) Data: ${ieC.getDataRegistro()}`);
 console.log('');
 
 const ieF = IEfunc();
